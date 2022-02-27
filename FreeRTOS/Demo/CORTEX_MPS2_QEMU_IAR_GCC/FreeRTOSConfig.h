@@ -1,5 +1,5 @@
 /*
- * FreeRTOS V202111.00
+ * FreeRTOS V202112.00
  * Copyright (C) 2020 Amazon.com, Inc. or its affiliates.  All Rights Reserved.
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy of
@@ -39,6 +39,7 @@
  * See http://www.freertos.org/a00110.html
  *----------------------------------------------------------*/
 
+#define configUSE_TICKLESS_IDLE         0
 #define configUSE_PREEMPTION			1
 #define configUSE_IDLE_HOOK				0
 #define configUSE_TICK_HOOK				1

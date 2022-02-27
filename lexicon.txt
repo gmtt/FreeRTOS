@@ -1,3 +1,4 @@
+aaaa
 ab
 abs
 accesskeyid
@@ -50,6 +51,7 @@ appropiate
 aptime
 apu
 ar
+aren't
 args
 armv
 arp
@@ -81,6 +83,7 @@ basetype
 bauddiv
 baudrate
 baudrateconverter
+bb
 bcd
 bcdcdc
 bcddevicel
@@ -114,6 +117,7 @@ binterfaceprotocol
 binterfacesubclass
 binterval
 bio
+bios
 bislisten
 bitmasking
 bitvalue
@@ -465,6 +469,7 @@ ctxbuffer
 ctxlock
 ctxstring
 curbyte
+currentthread
 curson
 cvore
 cwd
@@ -1037,6 +1042,7 @@ irqchannelpreemptionpriority
 irqchannelsubpriority
 irqcr
 irqhandler
+irqmask
 irqmd
 irqn
 irqs
@@ -1086,6 +1092,7 @@ keil
 keygen
 keytype
 khz
+kib
 kickstart
 knowns
 kx
@@ -1345,6 +1352,7 @@ msr
 mss
 mtcoverage
 mtu
+mtvec
 muc
 multithreaded
 multple
@@ -1532,6 +1540,7 @@ pcfile
 pcfilebuffer
 pcfilename
 pcfrom
+pchead
 pchelpstring
 pchexoutput
 pchost
@@ -1575,6 +1584,7 @@ pcpubkeylabel
 pcpublickeylabel
 pcqueuegetname
 pcqueuename
+pcreadfrom
 pcreceivedstring
 pcreg
 pcrestcommand
@@ -1589,6 +1599,7 @@ pcstatusmessage
 pcstring
 pcstringtoreceive
 pcstringtosend
+pctail
 pctaskname
 pcthingname
 pcthingnamebuffer
@@ -1602,6 +1613,7 @@ pcurl
 pcurldata
 pcurrenttime
 pcwritebuffer
+pcwriteto
 pd
 pdata
 pdc
@@ -1791,6 +1803,7 @@ prvcollectdevicemetrics
 prvcomtxtimercallback
 prvconnectandcreatedemotasks
 prvcopycommand
+prvcopydatatoqueue
 prvcoreatask
 prvcorebtasks
 prvcreatecommand
@@ -2001,6 +2014,7 @@ puchash
 pucindex
 pucmessage
 pucpayloadbuffer
+pucqueuestorage
 pucrandom
 pucresponse
 pucsig
@@ -2044,6 +2058,7 @@ pvbuffer
 pvcontext
 pvctx
 pvincomingpublishcallbackcontext
+pvitemtoqueue
 pvoptionvalue
 pvparam
 pvparameters
@@ -2096,6 +2111,7 @@ pxnetif
 pxnetworkbuffer
 pxnetworkcontext
 pxnetworkcredentials
+pxnewqueue
 pxnext
 pxopenedinterfacehandle
 pxoutcharswritten
@@ -2117,6 +2133,7 @@ pxport
 pxpublishinfo
 pxqueue
 pxreadhandle
+pxreceivecompletedcallback
 pxreportdescriptor
 pxrequestheaders
 pxrequestinfo
@@ -2124,6 +2141,7 @@ pxresponse
 pxreturninfo
 pxrng
 pxrngcontext
+pxsendcompletedcallback
 pxsiglen
 pxsigvcreds
 pxslotid
@@ -2151,6 +2169,9 @@ queuegenericcreate
 queuegenericcreatestatic
 queuegenericreset
 queuehandle
+queuelists
+queuelock
+queueoverwrite
 queuequeue
 queueregistry
 queueregistryitem
@@ -2162,6 +2183,7 @@ queuesetisr
 queuesetpriority
 queuespacesavailable
 queuestorage
+queuesuspend
 ra
 rampz
 rand
@@ -2316,6 +2338,7 @@ sbtrigger
 scalled
 scanf
 scf
+schedulersuspend
 sci
 scott
 scr
@@ -2428,6 +2451,7 @@ spbrg
 spen
 spi
 sprintf
+spu
 sr
 sram
 src
@@ -2459,6 +2483,7 @@ staticsemaphore
 staticstreambuffer
 statictask
 statictimer
+statusmessage
 stdarg
 stdint
 stdlib
@@ -2482,6 +2507,7 @@ sublicense
 subsquent
 succeds
 suicidaltasks
+summarise
 svc
 svr
 sw
@@ -2506,6 +2532,7 @@ systeminit
 systeminithook
 systemirqhandler
 systemtick
+systemstoreficrns
 systick
 systickdelay
 sz
@@ -2659,6 +2686,7 @@ ucdatamsr
 ucdatashar
 ucdatasipr
 ucfifodata
+uchars
 ucheap
 ucidentifier
 ucindex
@@ -2770,6 +2798,7 @@ ulong
 ulpacketsreceived
 ulpacketssent
 ulport
+ulportinterruptnesting
 ulprescale
 ulpriority
 ulprioritysetcounter
@@ -2841,6 +2870,7 @@ usagefault
 usart
 usarts
 usb
+usbat
 usbbus
 usbconfiguration
 usbdevice
@@ -2978,6 +3008,7 @@ veh
 veify
 veirfy
 vemacread
+verifast
 verifyinit
 verizon
 verrorchecks
@@ -3181,6 +3212,7 @@ xcomporthandle
 xconnectedsocket
 xconnectionsarraylength
 xcontrolmessagebuffer
+xcopyposition
 xcorebmessagebuffers
 xcount
 xcreatecleansession
@@ -3267,6 +3299,7 @@ xinterface
 xinterruptcontroller
 xiptracevalues
 xirqrequest
+xisinsideisr
 xisrautoreloadtimer
 xisroneshottimer
 xisrstatus
@@ -3362,6 +3395,7 @@ xportnumber
 xportpendsvhandler
 xportregistercinterrupthandler
 xportsystickhandler
+xposition
 xpreparetasklists
 xprintqueue
 xprivatekeyhandleptr
@@ -3558,6 +3592,7 @@ xteststatus
 xtickstowait
 xtime
 xtimeonentering
+xtimeout
 xtimeouts
 xtimer
 xtimerbuffer

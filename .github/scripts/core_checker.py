@@ -43,6 +43,7 @@ FREERTOS_IGNORED_EXTENSIONS = [
     '.cdkws',
     '.cfg',
     '.cgp',
+    '.checksum',
     '.cmake',
     '.cmd',
     '.config',
@@ -72,6 +73,7 @@ FREERTOS_IGNORED_EXTENSIONS = [
     '.dtd',
     '.dts',
     '.elf',
+    '.emProject',
     '.env_conf',
     '.ewd',
     '.ewp',
@@ -204,6 +206,7 @@ FREERTOS_IGNORED_EXTENSIONS = [
     '.sig',
     '.sln',
     '.spec',
+    '.sprj',
     '.stf',
     '.stg',
     '.suo',
@@ -255,6 +258,7 @@ FREERTOS_IGNORED_PATTERNS = [
     r'.*mbedtls_config\.h.*',
     r'.*mbedtls_config\.h.*',
     r'.*CMSIS.*',
+    r'.*/Nordic_Code/*',
     r'.*/makefile',
     r'.*/Makefile',
     r'.*/printf-stdarg\.c.*',
@@ -274,12 +278,17 @@ FREERTOS_IGNORED_FILES = [
     '.editorconfig',
     'lcovrc',
     'htif.c', 'htif.h',
-    'ethernetif.c'
+    'ethernetif.c',
+    'platform.c',
+    'platform.h',
+    'platform_config.h',
+    'FreeRTOS_asm_vectors.S',
+    'gdbinit'
 ]
 
 FREERTOS_HEADER = [
     '/*\n',
-    ' * FreeRTOS V202111.00\n',
+    ' * FreeRTOS V202112.00\n',
     ' * Copyright (C) 2020 Amazon.com, Inc. or its affiliates.  All Rights Reserved.\n',
     ' *\n',
     ' * Permission is hereby granted, free of charge, to any person obtaining a copy of\n',

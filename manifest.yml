@@ -4,7 +4,7 @@ description: "This is the standard distribution of FreeRTOS."
 
 dependencies:
   - name: "FreeRTOS-Kernel"
-    version: "e13f990"
+    version: "d5a10e459"
     repository:
       type: "git"
       url: "https://github.com/FreeRTOS/FreeRTOS-Kernel.git"
@@ -53,7 +53,7 @@ dependencies:
       path: "FreeRTOS-Plus/Source/Application-Protocols/coreMQTT-Agent"
 
   - name: "corePKCS11"
-    version: "v3.3.0"
+    version: "v3.4.0"
     repository:
       type: "git"
       url: "https://github.com/FreeRTOS/corePKCS11.git"
@@ -88,7 +88,7 @@ dependencies:
       path: "FreeRTOS-Plus/ThirdParty/wolfSSL"
 
   - name: "mbedtls"
-    version: "v2.26.0"
+    version: "v2.28.0"
     repository:
       type: "git"
       url:  "https://github.com/ARMmbed/mbedtls"
@@ -116,21 +116,21 @@ dependencies:
       path: "FreeRTOS-Plus/Source/Application-Protocols/coreSNTP"
 
   - name: "FreeRTOS-Community-Supported-Demos"
-    version: "e21b617"
+    version: "475d942"
     repository:
       type: "git"
       url: "https://github.com/FreeRTOS/FreeRTOS-Community-Supported-Demos"
       path: "FreeRTOS/Demo/ThirdParty/Community-Supported-Demos"
 
   - name: "FreeRTOS-Partner-Supported-Demos"
-    version: "109ef4d"
+    version: "dfb7cc9"
     repository:
       type: "git"
       url: "https://github.com/FreeRTOS/FreeRTOS-Partner-Supported-Demos"
       path: "FreeRTOS/Demo/ThirdParty/Partner-Supported-Demos"
 
   - name: "FreeRTOS-Cellular-Interface"
-    version: "v1.2.0"
+    version: "2bd3f79"
     repository:
       type: "git"
       url: "https://github.com/FreeRTOS/FreeRTOS-Cellular-Interface.git"
